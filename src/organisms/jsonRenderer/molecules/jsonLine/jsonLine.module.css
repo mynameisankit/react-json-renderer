@@ -1,0 +1,17 @@
+.jsonLine {
+  display: flex;
+  align-items: center;
+}
+
+.jsonField {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.indentLineContainer {
+  display: flex;
+  gap: 20px;
+  padding-left: 8px;
+}
