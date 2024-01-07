@@ -1,0 +1,6 @@
+.toggleChildrenButton {
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  background-color: white;
+}

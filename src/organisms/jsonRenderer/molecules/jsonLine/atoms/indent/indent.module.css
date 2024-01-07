@@ -1,0 +1,10 @@
+.indent {
+  display: flex;
+  gap: 20px;
+  padding-left: 8px;
+}
+
+.indentLine {
+  width: 1px;
+  background-color: black;
+}

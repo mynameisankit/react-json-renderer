@@ -1,0 +1,11 @@
+.jsonLine {
+  display: flex;
+  align-items: center;
+}
+
+.jsonField {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
