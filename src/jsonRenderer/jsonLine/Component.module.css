@@ -1,0 +1,33 @@
+.jsonLine {
+  display: flex;
+  align-items: center;
+  background-color: var(--json-renderer-background, transparent);
+  color: var(--json-renderer-color, inherit);
+}
+
+.jsonField {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+:global(.jsonRendererKey) {
+  color: var(--json-renderer-key-color, inherit);
+}
+
+:global(.jsonRendererstring) {
+  color: var(--json-renderer-string-color, inherit);
+}
+
+:global(.jsonRenderernumber) {
+  color: var(--json-renderer-number-color, inherit);
+}
+
+:global(.jsonRendererboolean) {
+  color: var(--json-renderer-boolean-color, inherit);
+}
+
+:global(.jsonRenderernull) {
+  color: var(--json-renderer-null-color, inherit);
+}

@@ -1,0 +1,9 @@
+.lineNumber {
+  height: 100%;
+  width: 20px;
+  background-color: var(--json-renderer-line-number-background, grey);
+  color: var(--json-renderer-line-number-color, inherit);
+  text-align: center;
+  padding-left: 4px;
+  padding-right: 4px;
+}

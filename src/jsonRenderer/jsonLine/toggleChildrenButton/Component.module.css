@@ -1,0 +1,27 @@
+.toggleChildrenButton {
+  position: absolute;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  border: 1px solid var(--json-renderer-toggle-border-color, #6e7781);
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: var(--json-renderer-toggle-background, white);
+  color: var(--json-renderer-toggle-color, inherit);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.toggleChildrenButton:hover {
+  filter: brightness(0.92);
+}
+
+.toggleChildrenButton:focus-visible {
+  outline: 2px solid #0969da;
+  outline-offset: 2px;
+}
