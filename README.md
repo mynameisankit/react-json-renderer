@@ -69,7 +69,3 @@ npm publish --access public
 ```
 
 For later releases, run `npm version patch` (or `minor` / `major`) before publishing.
-
-## Storybook
-
-Push to `main` to deploy Storybook through GitHub Pages. Once, enable **Settings → Pages → Build and deployment → GitHub Actions** in the repository. The site will be available at https://mynameisankit.github.io/react-json-renderer/.
