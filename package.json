@@ -1,6 +1,6 @@
 {
   "name": "@mynameisankit/react-json-renderer",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A virtualized, expandable, and themeable JSON viewer for React.",
   "homepage": "https://mynameisankit.github.io/react-json-renderer/",
   "repository": {
