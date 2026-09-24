@@ -24,7 +24,9 @@ jobs:
           node-version: 22
       - run: corepack enable
       - run: yarn install --immutable
-      - run: yarn build-storybook --base "/${{ github.event.repository.name }}/"
+      - run: yarn build-storybook
+        env:
+          STORYBOOK_BASE_PATH: /${{ github.event.repository.name }}/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: storybook-static
