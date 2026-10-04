@@ -69,3 +69,7 @@ npm publish --access public
 ```
 
 For later releases, run `npm version patch` (or `minor` / `major`) before publishing.
+
+## License
+
+MIT — see [LICENSE](./LICENSE).
